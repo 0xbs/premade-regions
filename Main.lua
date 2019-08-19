@@ -64,7 +64,7 @@ function PR.GetRegion(name)
     end
 
     -- match the realm name to a region
-    for region, regionRealms in pairs(C.REGION_REALMS) do
+    for region, regionRealms in pairs(PR.REGION_REALMS) do
         for _, realm in pairs(regionRealms) do
             if realm:lower():gsub(" ", "") == leaderRealm then
                 return region
