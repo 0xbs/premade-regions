@@ -24,17 +24,17 @@ local PR = select(2, ...)
 PR.GlobalRegionNotSupportedPrinted = false
 PR.RealmUnknownPrinted = {}
 
-function PrintGlobalRegionNotSupported()
+function PR.PrintGlobalRegionNotSupported()
     if not PR.GlobalRegionNotSupportedPrinted then
-        print("This addon currently only support the 'Americas' region "..
+        print("Premade Regions currently only support the 'Americas' region "..
                 "(North/Latin/South America, Australia and New Zealand)")
         PR.GlobalRegionNotSupportedPrinted = true
     end
 end
 
-function PrintRealmNotFound(realm)
+function PR.PrintRealmNotFound(realm)
     if realm and not PR.RealmUnknownPrinted[realm] then
-        print("The realm "..realm.." could not be matched to a region. "..
+        print("Premade Regions: the realm "..realm.." could not be matched to a region. "..
                 "Please open an issue at https://github.com/0xbs/premade-regions/issues")
         PR.RealmUnknownPrinted[realm] = true
     end
