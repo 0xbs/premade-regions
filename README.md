@@ -10,8 +10,64 @@ To look for mythic plus groups who fit your party makeup and are not from US Eas
 
 mythicplus and partyfit and not (use or mex)
 
+<h3>Keywords</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Keyword</th>
+      <th>Type</th>
+      <th>Description</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>oce</code></td>
+      <td>boolean</td>
+      <td>True if the region of the group leader is Oceanic</td>
+      <td><code>oce</code></td>
+    </tr>
+    <tr>
+      <td><code>usp</code></td>
+      <td>boolean</td>
+      <td>True if the region of the group leader is US Pacific</td>
+      <td><code>usp</code></td>
+    </tr>
+    <tr>
+      <td><code>usm</code></td>
+      <td>boolean</td>
+      <td>True if the region of the group leader is US Mountain</td>
+      <td><code>usm</code></td>
+    </tr>
+    <tr>
+      <td><code>usc</code></td>
+      <td>boolean</td>
+      <td>True if the region of the group leader is US Central</td>
+      <td><code>usc</code></td>
+    </tr>
+    <tr>
+      <td><code>use</code></td>
+      <td>boolean</td>
+      <td>True if the region of the group leader is US East</td>
+      <td><code>use</code></td>
+    </tr>
+    <tr>
+      <td><code>mex</code></td>
+      <td>boolean</td>
+      <td>True if the region of the group leader is Mexico</td>
+      <td><code>mex</code></td>
+    </tr>
+    <tr>
+      <td><code>bzl</code></td>
+      <td>boolean</td>
+      <td>True if the region of the group leader is Brazil</td>
+      <td><code>bzl</code></td>
+    </tr>    
+  </tbody>
+</table>
+
 <h3>Resources</h3>
 <ul>
-<li><a href="https://mods.curse.com/addons/wow/premade-regions" rel="nofollow">Project on Curse.com</a></li>
-<li><a href="https://github.com/0xbs/premade-groups-filter/wiki/Keywords" title="Full List of Keywords">Full List of Keywords</a></li>
+  <li><a href="https://mods.curse.com/addons/wow/premade-regions" rel="nofollow">Project on Curse.com</a></li>
 </ul>
