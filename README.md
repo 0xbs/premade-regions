@@ -2,7 +2,7 @@
 
 Provides region information in the premade groups and applicants listings as well as to other addons.
 
-When used as a standalone addon it will show the region of the group leader or applicant.  When used in combination with premade groups you can also filter groups by the group leaders region.
+When used as a standalone addon it will show the region of the group leader or applicant.  When used in combination with premade group filter you can also filter the group by the group leaders region.
 
 <h3>Example</h3>
 
