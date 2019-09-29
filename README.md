@@ -63,7 +63,13 @@ To look for mythic plus groups who fit your party makeup and are not from the US
       <td>boolean</td>
       <td>True if the region of the group leader is Brazil</td>
       <td><code>bzl</code></td>
-    </tr>    
+    </tr>
+    <tr>
+      <td><code>region</code></td>
+      <td>string</td>
+      <td>Region code of the group leader</td>
+      <td><code>(region == nil or region == "mex")</code></td>
+    </tr>
   </tbody>
 </table>
 
