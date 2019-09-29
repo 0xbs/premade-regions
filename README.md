@@ -6,7 +6,7 @@ When used as a standalone addon it will show the region of the group leader or a
 
 <h3>Example</h3>
 
-To look for mythic plus groups who fit your party makeup and are not from US East or Mexico servers you would use the following advanced expression query.
+To look for mythic plus groups who fit your party makeup and are not from the US East or Mexico servers you would use the following advanced expression query.
 
 <code>mythicplus and partyfit and not (use or mex)</code>
 
