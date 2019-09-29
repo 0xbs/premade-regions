@@ -13,5 +13,5 @@ mythicplus and partyfit and not (use or mex)
 <h3>Resources</h3>
 <ul>
 <li><a href="https://mods.curse.com/addons/wow/premade-regions" rel="nofollow">Project on Curse.com</a></li>
-<li><a href="https://github.com/0xbs/premade-groups-filter/wiki/Keywords" title="Full List of Keywords">Full List of Keywords used by premade group filter</a></li>
+<li><a href="https://github.com/0xbs/premade-groups-filter/wiki/Keywords" title="Full List of Keywords">Full List of Keywords</a></li>
 </ul>
