@@ -4,11 +4,11 @@ Provides region information in the premade groups and applicants listings as wel
 
 When used as a standalone addon it will show the region of the group leader or applicant.  When used in combination with premade groups you can also filter groups by the group leaders region.
 
-Example
+<h3>Example</h3>
 
 To look for mythic plus groups who fit your party makeup and are not from US East or Mexico servers you would use the following advanced expression query.
 
-mythicplus and partyfit and not (use or mex)
+<code>mythicplus and partyfit and not (use or mex)</code>
 
 <h3>Keywords</h3>
 
