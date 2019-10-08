@@ -167,6 +167,7 @@ PR.REGION_REALMS = {
         "Cho'gall",
         "Chromaggus",
         "Dawnbringer",
+		"Dentarg"
         "Detheroc",
         "Drak'tharon",
         "Drak'thul",
