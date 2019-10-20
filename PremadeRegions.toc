@@ -1,4 +1,4 @@
-## Interface: 80200
+## Interface: 80205
 ## Title: Premade Regions
 ## Version: 1.0
 ## Notes: Provides region information in the premade groups and applicants listings as well as to other addons.
