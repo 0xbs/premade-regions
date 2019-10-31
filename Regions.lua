@@ -137,7 +137,7 @@ PR.REGION_REALMS = {
     },
     ["usm"] = {
         "Azjol-Nerub",
-		"AzjolNerub",
+        "AzjolNerub",
         "Doomhammer",
         "Icecrown",
         "Perenolde",
@@ -168,7 +168,7 @@ PR.REGION_REALMS = {
         "Cho'gall",
         "Chromaggus",
         "Dawnbringer",
-		"Dentarg",
+        "Dentarg",
         "Detheroc",
         "Drak'tharon",
         "Drak'thul",
