@@ -137,6 +137,7 @@ PR.REGION_REALMS = {
     },
     ["usm"] = {
         "Azjol-Nerub",
+		"AzjolNerub",
         "Doomhammer",
         "Icecrown",
         "Perenolde",
