@@ -34,13 +34,13 @@ PR.REGION_TEXT_META.__index = function (table, key) return "Unknown" end
 setmetatable(PR.REGION_TEXT, PR.REGION_TEXT_META)
 
 PR.REGION_COLORED = {
-    ["oce"] = "|cFF009900[OCE]|r ",
-    ["usp"] = "|cFF3399FF[USP]|r ",
-    ["usm"] = "|cFF0066FF[USM]|r ",
-    ["usc"] = "|cFFFF9900[USC]|r ",
-    ["use"] = "|cFFFF0000[USE]|r ",
-    ["mex"] = "|cFFFF8000[|cFF006600M|cFFFFFFFFE|cFFCC3300X|cFFFF8000]|r ",
-    ["bzl"] = "|cFFFF8000[|cFF006600B|cFFFFFF00Z|cFF3333CCL|cFFFF8000]|r ",
+    ["oce"] = "|cFF009900OCE|r",
+    ["usp"] = "|cFF3399FFUSP|r",
+    ["usm"] = "|cFF0066FFUSM|r",
+    ["usc"] = "|cFFFF9900USC|r",
+    ["use"] = "|cFFFF0000USE|r",
+    ["mex"] = "|cFF006600M|cFFFFFFFFE|cFFCC3300X|r",
+    ["bzl"] = "|cFF006600B|cFFFFFF00Z|cFF3333CCL|r",
 }
 PR.REGION_COLORED_META = {}
 PR.REGION_COLORED_META.__index = function (table, key) return "|cFFFFFFFF[?]|r " end
