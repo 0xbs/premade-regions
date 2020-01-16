@@ -43,7 +43,7 @@ PR.REGION_COLORED = {
     ["bzl"] = "|cFF006600B|cFFFFFF00Z|cFF3333CCL|r",
 }
 PR.REGION_COLORED_META = {}
-PR.REGION_COLORED_META.__index = function (table, key) return "|cFFFFFFFF[?]|r " end
+PR.REGION_COLORED_META.__index = function (table, key) return "|cFFFFFFFF?|r " end
 setmetatable(PR.REGION_COLORED, PR.REGION_COLORED_META)
 
 PR.REGION_REALMS = {
