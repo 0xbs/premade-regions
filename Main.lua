@@ -77,6 +77,21 @@ function PR.GetRegion(name)
     return nil
 end
 
+function PR.GetDungeonName(name)
+    if not name then
+        return nil
+    end
+
+    for dungeonLong, dungeonShort in pairs(PR.DUNGEON_TEXT) do
+       
+        if string.find(name,dungeonLong) then
+            return string.gsub(string.gsub(name,dungeonLong,dungeonShort),"Mythic Keystone","MKS")
+        end
+    end
+
+    return name
+end
+
 function PR.GetRegionText(name) return PR.REGION_TEXT[PR.GetRegion(name)] end
 function PR.GetRegionColored(name) return PR.REGION_COLORED[PR.GetRegion(name)] end
 
@@ -85,7 +100,10 @@ function PR.GetRegionColored(name) return PR.REGION_COLORED[PR.GetRegion(name)] 
 function PR.OnLFGListSearchEntryUpdate(self)
     local searchResultInfo = C_LFGList.GetSearchResultInfo(self.resultID)
     local region = PR.GetRegionColored(searchResultInfo.leaderName)
-    self.ActivityName:SetFormattedText("%s %s", region, self.ActivityName:GetText())
+--  
+    local activityName = PR.GetDungeonName(self.ActivityName:GetText())
+    --self.ActivityName:SetFormattedText("%s %s", region, self.ActivityName:GetText())
+    self.ActivityName:SetFormattedText("%s %s", region, activityName)
 end
 
 --- Hook on LFGListApplicationViewer_UpdateApplicantMember to add the region to the name
