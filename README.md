@@ -38,7 +38,7 @@ To look for mythic plus groups who fit your party makeup and are not from the Ch
       <td><code>la</code></td>
       <td>boolean</td>
       <td>True if the datacenter of the group leader is Los Angeles</td>
-      <td><code>chi</code></td>
+      <td><code>la</code></td>
     </tr>
     <tr>
       <td><code>mex</code></td>
