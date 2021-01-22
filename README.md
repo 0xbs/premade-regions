@@ -6,9 +6,9 @@ When used as a standalone addon it will show the region of the group leader or a
 
 <h3>Example</h3>
 
-To look for mythic plus groups who fit your party makeup and are not from the US East or Mexico servers you would use the following advanced expression query.
+To look for mythic plus groups who fit your party makeup and are not from the Chicago or Mexico servers you would use the following advanced expression query.
 
-<code>mythicplus and partyfit and not (use or mex)</code>
+<code>mythicplus and partyfit and not (chi or mex)</code>
 
 <h3>Keywords</h3>
 
@@ -25,32 +25,20 @@ To look for mythic plus groups who fit your party makeup and are not from the US
     <tr>
       <td><code>oce</code></td>
       <td>boolean</td>
-      <td>True if the region of the group leader is Oceanic</td>
+      <td>True if the datacenter of the group leader is Sydney Australia</td>
       <td><code>oce</code></td>
     </tr>
     <tr>
-      <td><code>usp</code></td>
+      <td><code>chi</code></td>
       <td>boolean</td>
-      <td>True if the region of the group leader is US Pacific</td>
-      <td><code>usp</code></td>
+      <td>True if the datacenter of the group leader is Chicago</td>
+      <td><code>chi</code></td>
     </tr>
     <tr>
-      <td><code>usm</code></td>
+      <td><code>la</code></td>
       <td>boolean</td>
-      <td>True if the region of the group leader is US Mountain</td>
-      <td><code>usm</code></td>
-    </tr>
-    <tr>
-      <td><code>usc</code></td>
-      <td>boolean</td>
-      <td>True if the region of the group leader is US Central</td>
-      <td><code>usc</code></td>
-    </tr>
-    <tr>
-      <td><code>use</code></td>
-      <td>boolean</td>
-      <td>True if the region of the group leader is US East</td>
-      <td><code>use</code></td>
+      <td>True if the datacenter of the group leader is Los Angeles</td>
+      <td><code>la</code></td>
     </tr>
     <tr>
       <td><code>mex</code></td>
