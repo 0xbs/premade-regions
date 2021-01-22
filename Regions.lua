@@ -35,8 +35,8 @@ PR.REGION_COLORED = {
     ["oce"] = "|cFF009900OCE|r",
     ["la"] = "|cFF3399FFLA|r",
     ["chi"] = "|cFFFF0000CHI|r",
-    ["mex"] = "|cFF006600M|cFFFFFFFFE|cFFCC3300X|r",
-    ["bzl"] = "|cFF006600B|cFFFFFF00Z|cFF3333CCL|r",
+    ["mex"] = "|cFF006600M|r|cFFFFFFFFE|r|cFFCC3300X|r",
+    ["bzl"] = "|cFF006600B|r|cFFFFFF00Z|r|cFF3333CCL|r",
 }
 PR.REGION_COLORED_META = {}
 PR.REGION_COLORED_META.__index = function (table, key) return "|cFFFFFFFF?|r " end

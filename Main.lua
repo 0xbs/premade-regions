@@ -98,6 +98,7 @@ function PR.OnLFGListApplicationViewerUpdateApplicantMember(member, appID, membe
     local name = C_LFGList.GetApplicantMemberInfo(appID, memberIdx);
     local region = PR.GetRegionColored(name)
     member.Name:SetFormattedText("%s %s", region, member.Name:GetText())
+    print(region,member.Name:GetText())
 end
 
 hooksecurefunc("LFGListSearchEntry_Update", PR.OnLFGListSearchEntryUpdate)
