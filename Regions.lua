@@ -64,6 +64,7 @@ PR.REGION_REALMS = {
         "Anub'arak",
         "Arathor",
         "Azjol-Nerub",
+        "Azjolnerub",
         "Blackrock",
         "Blackwater Raiders",
         "Bladefist",
