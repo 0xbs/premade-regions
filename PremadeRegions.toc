@@ -1,6 +1,6 @@
-## Interface: 90005
+## Interface: 90100
 ## Title: Premade Regions
-## Version: 1.1.5
+## Version: 1.1.6
 ## Notes: Provides region information in the premade groups and applicants listings as well as to other addons.
 ## Author: gihub.com/0xbs and github.com/Rustyb0y
 ## SavedVariables:
