@@ -63,5 +63,6 @@ To look for mythic plus groups who fit your party makeup and are not from the Ch
 
 <h3>Resources</h3>
 <ul>
-  <li><a href="https://mods.curse.com/addons/wow/premade-regions" rel="nofollow">Project on Curse.com</a></li>
+  <li><a href="https://www.curseforge.com/wow/addons/premade-regions" rel="nofollow">Project on Curse.com</a></li>
+  <li><a href="https://addons.wago.io/addons/premade-groups-filter" rel="nofollow">Project on Wago.io</a></li>
 </ul>
