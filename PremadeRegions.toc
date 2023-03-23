@@ -1,4 +1,4 @@
-## Interface: 100005
+## Interface: 100007
 ## Title: Premade Regions
 ## Version: @project-version@
 ## Notes: Provides region information in the premade groups and applicants listings as well as to other addons.
