@@ -38,12 +38,12 @@ PR.REGION_TEXT_META.__index = function (table, key) return "Unknown" end
 setmetatable(PR.REGION_TEXT, PR.REGION_TEXT_META)
 
 PR.REGION_COLORED = {
-    ["eng"] = "|cFFFEF9EFENG|r",
+    ["eng"] = "|cFFEDBFD0ENG|r",
     ["ger"] = "|cFFFFCB77GER|r",
     ["fra"] = "|cFF3891A6FRA|r",
-    ["ita"] = "|cFF3891A6ITA|r",
+    ["ita"] = "|cFF9DD2A3ITA|r",
     ["spa"] = "|cFF7A6263SPA|r",
-    ["rus"] = "|cFFCB8589RUS|r",
+    ["rus"] = "|cFFBC6266RUS|r",
     ["oce"] = "|cFF009900OCE|r",
     ["la"] = "|cFF3399FFLA|r",
     ["chi"] = "|cFFFF0000CHI|r",
