@@ -26,8 +26,7 @@ PR.RealmUnknownPrinted = {}
 
 function PR.PrintGlobalRegionNotSupported()
     if not PR.GlobalRegionNotSupportedPrinted then
-        print("Premade Regions currently only support the 'Americas' region "..
-                "(North/Latin/South America, Australia and New Zealand)")
+        print("Premade Regions currently only support the 'US' and 'EU' regions")
         PR.GlobalRegionNotSupportedPrinted = true
     end
 end
@@ -51,7 +50,13 @@ function PR.GetRegion(name)
     -- see https://us.battle.net/support/en/article/7558 and https://wow.gamepedia.com/API_GetCurrentRegion
     -- in fact still unreliable for players who switch between regions as of 2019-08-18
     -- (getting "EU" using my EU client even if I log into a US account)
-    if not (GetCurrentRegionName() == "US") then
+    playerRegion = GetCurrentRegion()
+
+    if playerRegion == 1 then
+        PR.REGION_REALMS = PR.US_REGION_REALMS
+    elseif playerRegion == 3 then
+        PR.REGION_REALMS = PR.EU_REGION_REALMS
+    else
         PR.PrintGlobalRegionNotSupported()
         return nil
     end
