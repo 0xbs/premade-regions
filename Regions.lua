@@ -150,7 +150,7 @@ PR.EU_REGION_REALMS = {
         "The Venture Co",
         "Thunderhorn",
         "Trollbane",
-        "Turalyon"
+        "Turalyon",
         "Twilight's Hammer",
         "Twisting Nether",
         "Vashj",
