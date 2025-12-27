@@ -24,6 +24,7 @@ PR.REGION_TEXT = {
     ["eng"] = "English",
     ["ger"] = "German",
     ["fra"] = "French",
+    ["ita"] = "Italian",
     ["spa"] = "Spainish",
     ["rus"] = "Russian",
     ["oce"] = "Oceanic",
@@ -37,11 +38,12 @@ PR.REGION_TEXT_META.__index = function (table, key) return "Unknown" end
 setmetatable(PR.REGION_TEXT, PR.REGION_TEXT_META)
 
 PR.REGION_COLORED = {
-    ["eng"] = "|cFFFFFFFFENG|r",
-    ["ger"] = "|cFFDA291CGER|r",
-    ["fra"] = "|cFFDA291CFRA|r",
-    ["spa"] = "|cFFDA291CSPA|r",
-    ["rus"] = "|cFFDA291CRUS|r",
+    ["eng"] = "|cFFFEF9EFENG|r",
+    ["ger"] = "|cFFFFCB77GER|r",
+    ["fra"] = "|cFF3891A6FRA|r",
+    ["ita"] = "|cFF3891A6ITA|r",
+    ["spa"] = "|cFF7A6263SPA|r",
+    ["rus"] = "|cFFCB8589RUS|r",
     ["oce"] = "|cFF009900OCE|r",
     ["la"] = "|cFF3399FFLA|r",
     ["chi"] = "|cFFFF0000CHI|r",
