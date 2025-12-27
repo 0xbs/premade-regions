@@ -21,6 +21,11 @@
 local PR = select(2, ...)
 
 PR.REGION_TEXT = {
+    ["eng"] = "English",
+    ["ger"] = "German",
+    ["fra"] = "French",
+    ["spa"] = "Spainish",
+    ["rus"] = "Russian",
     ["oce"] = "Oceanic",
     ["la"] = "Los Angeles",
     ["chi"] = "Chicago",
@@ -59,7 +64,7 @@ PR.EU_REGION_REALMS = {
         "Arathor",
         "Argent Dawn",
         "Aszune",
-        "Auchindoun"
+        "Auchindoun",
         "Azjol-Nerub",
         "Azuremyst",
         "Balnazzar",
@@ -105,9 +110,9 @@ PR.EU_REGION_REALMS = {
         "Hellfire",
         "Hellscream",
         "Jaedenar",
-        "Karazhan"
+        "Karazhan",
         "Kazzak",
-        "Khadgar"
+        "Khadgar",
         "Kilrogg",
         "Kor'gall",
         "Kul Tiras",
@@ -138,7 +143,7 @@ PR.EU_REGION_REALMS = {
         "Steamwheedle Cartel",
         "Stormrage",
         "Stormreaver",
-        "Stormscale"
+        "Stormscale",
         "Sunstrider",
         "Sylvanas",
         "Talnivarr",
@@ -246,7 +251,7 @@ PR.EU_REGION_REALMS = {
         "Wrathbringer",
         "Ysera",
         "Zirkel des Cenarius",
-        "Zuluhed",
+        "Zuluhed"
     },
     ["fra"] = {
         "Arak-arahm",
@@ -258,7 +263,7 @@ PR.EU_REGION_REALMS = {
         "Conseil des Ombres",
         "Culte de la Rive noire",
         "Dalaran",
-        "Drek'Thar"
+        "Drek'Thar",
         "Eitrigg",
         "Eldre'Thalas",
         "Elune",
@@ -285,7 +290,7 @@ PR.EU_REGION_REALMS = {
         "Uldaman",
         "Varimathras",
         "Vol'Jin",
-        "Ysondre",
+        "Ysondre"
     },
     ["spa"] = {
         "Aggra(Português)",
