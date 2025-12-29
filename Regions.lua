@@ -133,7 +133,7 @@ PR.EU_REGION_REALMS = {
         "Quel'Thalas",
         "Ragnaros",
         "Ravencrest",
-        "Ravenholt",
+        "Ravenholdt",
         "Runetotem",
         "Saurfang",
         "Scarshield Legion",
