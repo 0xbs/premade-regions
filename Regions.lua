@@ -26,6 +26,7 @@ PR.REGION_TEXT = {
     ["fra"] = "French",
     ["ita"] = "Italian",
     ["spa"] = "Spanish",
+    ["por"] = "Portuguese",
     ["rus"] = "Russian",
     ["oce"] = "Oceanic",
     ["la"] = "Los Angeles",
@@ -38,12 +39,13 @@ PR.REGION_TEXT_META.__index = function (table, key) return "Unknown" end
 setmetatable(PR.REGION_TEXT, PR.REGION_TEXT_META)
 
 PR.REGION_COLORED = {
-    ["eng"] = "|cFFEDBFD0ENG|r",
-    ["ger"] = "|cFFFFCB77GER|r",
-    ["fra"] = "|cFF3891A6FRA|r",
-    ["ita"] = "|cFF9DD2A3ITA|r",
-    ["spa"] = "|cFF7A6263SPA|r",
-    ["rus"] = "|cFFBC6266RUS|r",
+    ["eng"] = "|cFF57D1FFENG|r",
+    ["ger"] = "|cFFFFD700GER|r",
+    ["fra"] = "|cFFFF5C5CFRA|r",
+    ["ita"] = "|cFF49FF88ITA|r",
+    ["spa"] = "|cFFFF9F1CSPA|r",
+    ["por"] = "|cFFBD93F9POR|r",
+    ["rus"] = "|cFFFFFFFFRUS|r",
     ["oce"] = "|cFF009900OCE|r",
     ["la"] = "|cFF3399FFLA|r",
     ["chi"] = "|cFFFF0000CHI|r",
@@ -295,7 +297,6 @@ PR.EU_REGION_REALMS = {
         "Ysondre"
     },
     ["spa"] = {
-        "Aggra(Português)",
         "Colinas Pardas",
         "C'Thun",
         "Dun Modr",
@@ -307,6 +308,9 @@ PR.EU_REGION_REALMS = {
         "Tyrande",
         "Uldum",
         "Zul'jin"
+    },
+    ["por"] = {
+        "Aggra (Português)"
     },
     ["rus"] = {
         "Азурегос",
