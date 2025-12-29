@@ -3,7 +3,7 @@
 ## Version: @project-version@
 ## IconTexture: 237387
 ## Notes: Provides region information in the premade groups and applicants listings as well as to other addons.
-## Author: gihub.com/0xbs and github.com/Rustyb0y
+## Author: gihub.com/0xbs, github.com/Rustyb0y and github.com/HeckerBirb
 ## SavedVariables:
 ## SavedVariablesPerCharacter:
 
