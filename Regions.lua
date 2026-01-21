@@ -198,7 +198,7 @@ PR.EU_REGION_REALMS = {
         "Die Arguswacht",
         "Die ewige Wacht",
         "Die Nachtwache",
-        "Die Silverne Hand",
+        "Die Silberne Hand",
         "Die Todenskrallen",
         "Dun Morogh",
         "Durotan",
