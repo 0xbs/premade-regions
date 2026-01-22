@@ -39,6 +39,11 @@ function PR.PrintRealmNotFound(realm)
     end
 end
 
+function PR.NormalizeRealm(realm)
+    -- remove all spaces and punctuation, which includes - and '
+    return realm:lower():gsub("[%s%p]", "")
+end
+
 --- Returns the region identifier of a player
 --- @param name string the name of the character of the player
 --- @return number region identifier (see Regions.lua)
@@ -50,7 +55,7 @@ function PR.GetRegion(name)
     -- see https://us.battle.net/support/en/article/7558 and https://wow.gamepedia.com/API_GetCurrentRegion
     -- in fact still unreliable for players who switch between regions as of 2019-08-18
     -- (getting "EU" using my EU client even if I log into a US account)
-    playerRegion = GetCurrentRegion()
+    local playerRegion = GetCurrentRegion()
 
     if playerRegion == 1 then
         PR.REGION_REALMS = PR.US_REGION_REALMS
@@ -61,17 +66,14 @@ function PR.GetRegion(name)
         return nil
     end
 
-    local leaderRealm = name:match("%-(.+)")
-    if leaderRealm then
-        leaderRealm = leaderRealm:lower():gsub(" ", "")
-    else
-        leaderRealm = GetRealmName():lower():gsub(" ", "")
-    end
+    -- if the leader has no suffix, they are from our realm
+    local leaderRealm = name:match("%-(.+)") or GetRealmName()
 
+    local normalizedLeaderRealm = PR.NormalizeRealm(leaderRealm)
     -- match the realm name to a region
     for region, regionRealms in pairs(PR.REGION_REALMS) do
         for _, realm in pairs(regionRealms) do
-            if realm:lower():gsub(" ", "") == leaderRealm then
+            if PR.NormalizeRealm(realm) == normalizedLeaderRealm then
                 return region
             end
         end

@@ -85,7 +85,7 @@ PR.EU_REGION_REALMS = {
         "Burning Steppes",
         "Chamber of Aspects",
         "Chromaggus",
-        "Chrushridge",
+        "Crushridge",
         "Daggerspine",
         "Darkmoon Faire",
         "Darksorrow",
@@ -166,13 +166,13 @@ PR.EU_REGION_REALMS = {
         "Vek'nilash",
         "Wildhammer",
         "Xavius",
-        "Zenedar"
+        "Zenedar",
     },
     ["ger"] = {
         "Aegwynn",
         "Alexstrasza",
         "Alleria",
-        "Aman'thul",
+        "Aman'Thul",
         "Ambossar",
         "Anetheron",
         "Antonidas",
@@ -189,7 +189,7 @@ PR.EU_REGION_REALMS = {
         "Dalvengyr",
         "Das Konsortium",
         "Das Syndikat",
-        "Der Abyssische Rat",
+        "Der abyssische Rat",
         "Der Mithrilorden",
         "Der Rat von Dalaran",
         "Destromath",
@@ -199,7 +199,7 @@ PR.EU_REGION_REALMS = {
         "Die ewige Wacht",
         "Die Nachtwache",
         "Die Silberne Hand",
-        "Die Todenskrallen",
+        "Die Todeskrallen",
         "Dun Morogh",
         "Durotan",
         "Echsenkessel",
@@ -255,7 +255,7 @@ PR.EU_REGION_REALMS = {
         "Wrathbringer",
         "Ysera",
         "Zirkel des Cenarius",
-        "Zuluhed"
+        "Zuluhed",
     },
     ["fra"] = {
         "Arak-arahm",
@@ -293,12 +293,12 @@ PR.EU_REGION_REALMS = {
         "Throk'Feroth",
         "Uldaman",
         "Varimathras",
-        "Vol'Jin",
-        "Ysondre"
+        "Vol'jin",
+        "Ysondre",
     },
     ["spa"] = {
-        "Colinas Pardas",
         "C'Thun",
+        "Colinas Pardas",
         "Dun Modr",
         "Exodar",
         "Los Errantes",
@@ -307,7 +307,7 @@ PR.EU_REGION_REALMS = {
         "Shen'dralar",
         "Tyrande",
         "Uldum",
-        "Zul'jin"
+        "Zul'jin",
     },
     ["por"] = {
         "Aggra (Português)"
@@ -328,16 +328,16 @@ PR.EU_REGION_REALMS = {
         "Ревущий фьорд",
         "Свежеватель Душ",
         "Седогрив",
-        "Страж смерти",
+        "Страж Смерти",
         "Термоштепсель",
         "Ткач Смерти",
-        "Черныйшрам",
-        "Ясеневый лес"
+        "Черный Шрам",
+        "Ясеневый лес",
     },
     ["ita"] = {
         "Nemesis",
-        "Pozzo dell'Eternità"
-    }
+        "Pozzo dell'Eternità",
+    },
 }
 
 PR.US_REGION_REALMS = {
@@ -362,7 +362,6 @@ PR.US_REGION_REALMS = {
         "Anub'arak",
         "Arathor",
         "Azjol-Nerub",
-        "Azjolnerub",
         "Blackrock",
         "Blackwater Raiders",
         "Bladefist",
