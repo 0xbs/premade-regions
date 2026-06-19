@@ -1,4 +1,4 @@
-## Interface: 120005
+## Interface: 120007
 ## Title: Premade Regions
 ## Version: @project-version@
 ## IconTexture: 237387
